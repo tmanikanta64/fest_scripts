@@ -93,7 +93,7 @@ if __name__ == "__main__":
 
             message ="Hi " + str(details[1]+details[2]) + "\n" + " You have been successfully registered for:\n" + str(event_ids[events[0]]) + "\n" + str(event_ids[events[1]]) + "\n" + str(event_ids[events[2]])
             try:
-                if count > 1:
+                if count > 96:
                     id += 1
                     count = 1
 
