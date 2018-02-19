@@ -1,4 +1,4 @@
-RFID_code,Name,College Name,Phone Number,email,Event               
+RFID_code	,Name		,College Name		,Phone Number	,email		,Event               
 12345,talasu manikanta,vignan,3456789012,kantp,Circuitry
 12345,raji bommali,anits,5678901234,vinaybooman,Circuitry
 12345,a b,a,8332098992,a@a.com,Circuitry

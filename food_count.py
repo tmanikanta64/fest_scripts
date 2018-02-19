@@ -23,6 +23,7 @@ def read_faculty():
 
 
 def show_details(RFID_code):
+    # combines both faculty and participant_details
     details = {**participant_details, **faculty_details}
 
     if len(food_taken_list) == 0:
@@ -45,6 +46,8 @@ def show_details(RFID_code):
             t.write(RFID_code + "," + details_of_participant[0] + "," + details_of_participant[1] + "," + details_of_participant[2] + "," + details_of_participant[3] + "\n")
     elif RFID_code in food_taken_list:
         print("Today's food coupon already used.")
+    elif RFID_code not in details:
+        print("Details not found in the list...\n")
     else:
         print("Not found")
 
