@@ -54,7 +54,7 @@ if __name__ == "__main__":
     read_participants()
 
     while True:
-        response = str(input("Do you eat [y]/[n]: ")).lower()
+        response = str(input("Do you want to eat [y]/[n]: ")).lower()
 
         if response == "y":
             os.system('cls')
