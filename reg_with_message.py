@@ -119,6 +119,6 @@ if __name__ == "__main__":
                 print(count)
                 count += 1
             except ConnectionError:
-                raise
+                print("There is a network error. please ensure you have an internet connection\n")
         else:
             print("invalid response")
